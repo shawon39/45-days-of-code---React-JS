@@ -8,12 +8,13 @@ import "./App.css";
 // import ListAndEvent from './5-ListAndEvent/ListAndEvent';
 // import LifecycleComp from "./6-LifecycleComp/LifecycleComp";
 // import GetDataAxios from './7-GetDataAxios/GetDataAxios';
-import FormComp from './8-FormComp/FormComp';
+// import FormComp from './8-FormComp/FormComp';
+import PostForm from './8-FormComp/PostForm';
 
 function App() {
 	return (
 		<div className="App">
-			<FormComp />
+			<PostForm />
 		</div>
 	);
 }
