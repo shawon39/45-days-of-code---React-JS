@@ -9,12 +9,13 @@ import "./App.css";
 // import LifecycleComp from "./6-LifecycleComp/LifecycleComp";
 // import GetDataAxios from './7-GetDataAxios/GetDataAxios';
 // import FormComp from './8-FormComp/FormComp';
-import PostForm from './8-FormComp/PostForm';
+// import PostForm from './8-FormComp/PostForm';
+import LiftingStateUp from './9-LiftingStateUp/LiftingStateUp';
 
 function App() {
 	return (
 		<div className="App">
-			<PostForm />
+			<LiftingStateUp />
 		</div>
 	);
 }
