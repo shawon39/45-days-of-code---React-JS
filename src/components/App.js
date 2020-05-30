@@ -10,12 +10,14 @@ import "./App.css";
 // import GetDataAxios from './7-GetDataAxios/GetDataAxios';
 // import FormComp from './8-FormComp/FormComp';
 // import PostForm from './8-FormComp/PostForm';
-import LiftingStateUp from './9-LiftingStateUp/LiftingStateUp';
+// import LiftingStateUp from "./9-LiftingStateUp/LiftingStateUp";
+// import ClickCounter from "./11-HigherOrderComponents/ClickCounter/ClickCounter";
+// import HoverCounter from "./11-HigherOrderComponents/HoverCounter/HoverCounter";
 
 function App() {
 	return (
 		<div className="App">
-			<LiftingStateUp />
+			{/* Component */}
 		</div>
 	);
 }
