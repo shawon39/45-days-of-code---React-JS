@@ -13,11 +13,12 @@ import "./App.css";
 // import LiftingStateUp from "./9-LiftingStateUp/LiftingStateUp";
 // import ClickCounter from "./11-HigherOrderComponents/ClickCounter/ClickCounter";
 // import HoverCounter from "./11-HigherOrderComponents/HoverCounter/HoverCounter";
+import ContextAPI from "./12-ContextAPI/ContextAPI";
 
 function App() {
 	return (
 		<div className="App">
-			{/* Component */}
+			<ContextAPI/>
 		</div>
 	);
 }
