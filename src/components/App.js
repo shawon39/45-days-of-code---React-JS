@@ -4,6 +4,7 @@ import "./App.css";
 // import StateComp from "./2-StateComp/StateComp";
 //import PrevState from "./2-StateComp/PrevState";
 // import EventComp from './3-EventComp/EventComp';
+import EventComp2 from './3-EventComp/EventComp2';
 // import StatelessComp from './4-StatelessComp/StatelessComp';
 // import ListAndEvent from './5-ListAndEvent/ListAndEvent';
 // import LifecycleComp from "./6-LifecycleComp/LifecycleComp";
@@ -13,12 +14,12 @@ import "./App.css";
 // import LiftingStateUp from "./9-LiftingStateUp/LiftingStateUp";
 // import ClickCounter from "./11-HigherOrderComponents/ClickCounter/ClickCounter";
 // import HoverCounter from "./11-HigherOrderComponents/HoverCounter/HoverCounter";
-import ContextAPI from "./12-ContextAPI/ContextAPI";
+// import ContextAPI from "./12-ContextAPI/ContextAPI";
 
 function App() {
 	return (
 		<div className="App">
-			<ContextAPI/>
+			<EventComp2/>
 		</div>
 	);
 }
