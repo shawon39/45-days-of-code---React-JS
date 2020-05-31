@@ -16,12 +16,13 @@ import "./App.css";
 // import HoverCounter from "./11-HigherOrderComponents/HoverCounter/HoverCounter";
 // import ContextAPI from "./12-ContextAPI/ContextAPI";
 // import Fragments from "./13-Fragments/Fragments";
-import Fragments2 from './13-Fragments/Fragments2';
+// import Fragments2 from './13-Fragments/Fragments2';
+import ParentComp from "./14-PureComp/ParentComp";
 
 function App() {
 	return (
 		<div className="App">
-			<Fragments2/>
+			<ParentComp/>
 		</div>
 	);
 }
