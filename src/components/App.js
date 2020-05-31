@@ -4,7 +4,7 @@ import "./App.css";
 // import StateComp from "./2-StateComp/StateComp";
 //import PrevState from "./2-StateComp/PrevState";
 // import EventComp from './3-EventComp/EventComp';
-import EventComp2 from './3-EventComp/EventComp2';
+// import EventComp2 from './3-EventComp/EventComp2';
 // import StatelessComp from './4-StatelessComp/StatelessComp';
 // import ListAndEvent from './5-ListAndEvent/ListAndEvent';
 // import LifecycleComp from "./6-LifecycleComp/LifecycleComp";
@@ -15,11 +15,13 @@ import EventComp2 from './3-EventComp/EventComp2';
 // import ClickCounter from "./11-HigherOrderComponents/ClickCounter/ClickCounter";
 // import HoverCounter from "./11-HigherOrderComponents/HoverCounter/HoverCounter";
 // import ContextAPI from "./12-ContextAPI/ContextAPI";
+// import Fragments from "./13-Fragments/Fragments";
+import Fragments2 from './13-Fragments/Fragments2';
 
 function App() {
 	return (
 		<div className="App">
-			<EventComp2/>
+			<Fragments2/>
 		</div>
 	);
 }
