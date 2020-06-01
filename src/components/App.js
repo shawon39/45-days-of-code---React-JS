@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 // import PropsComp from "./1-PropsComp/PropsComp";
 // import StateComp from "./2-StateComp/StateComp";
-//import PrevState from "./2-StateComp/PrevState";
+// import PrevState from "./2-StateComp/PrevState";
 // import EventComp from './3-EventComp/EventComp';
 // import EventComp2 from './3-EventComp/EventComp2';
 // import StatelessComp from './4-StatelessComp/StatelessComp';
@@ -17,12 +17,15 @@ import "./App.css";
 // import ContextAPI from "./12-ContextAPI/ContextAPI";
 // import Fragments from "./13-Fragments/Fragments";
 // import Fragments2 from './13-Fragments/Fragments2';
-import ParentComp from "./14-PureComp/ParentComp";
+// import ParentComp from "./14-PureComp/ParentComp";
+// import RefsDemo from "./15-Refs/RefsDemo";
+// import RefsParent from "./15-Refs/RefsCompExample/RefsParent";
+import FRparent from "./15-Refs/ForwardRefs/FRparent";
 
 function App() {
 	return (
 		<div className="App">
-			<ParentComp/>
+			<FRparent/>
 		</div>
 	);
 }
