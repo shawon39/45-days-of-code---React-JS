@@ -20,12 +20,13 @@ import "./App.css";
 // import ParentComp from "./14-PureComp/ParentComp";
 // import RefsDemo from "./15-Refs/RefsDemo";
 // import RefsParent from "./15-Refs/RefsCompExample/RefsParent";
-import FRparent from "./15-Refs/ForwardRefs/FRparent";
+// import FRparent from "./15-Refs/ForwardRefs/FRparent";
+import PortalComp from "./16-PortalComp/PortalComp";
 
 function App() {
 	return (
 		<div className="App">
-			<FRparent/>
+			<PortalComp/>
 		</div>
 	);
 }
