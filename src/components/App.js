@@ -21,12 +21,13 @@ import "./App.css";
 // import RefsDemo from "./15-Refs/RefsDemo";
 // import RefsParent from "./15-Refs/RefsCompExample/RefsParent";
 // import FRparent from "./15-Refs/ForwardRefs/FRparent";
-import PortalComp from "./16-PortalComp/PortalComp";
+// import PortalComp from "./16-PortalComp/PortalComp";
+import ErrorWrapper from './17-ErrorBoundary/ErrorWrapper';
 
 function App() {
 	return (
 		<div className="App">
-			<PortalComp/>
+			<ErrorWrapper/>
 		</div>
 	);
 }
