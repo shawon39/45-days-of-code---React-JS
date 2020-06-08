@@ -7,12 +7,14 @@ import './App2.css';
 // import CounterOne from './2-useEffect/CounterOne';
 // import HookCounterTwo from './2-useEffect/HookCounterTwo';
 // import MouseContainer from './2-useEffect/MouseContainer';
-import IntervalCounter from './2-useEffect/IntervalCounter';
+// import IntervalCounter from './2-useEffect/IntervalCounter';
+// import DataFetching from './2-useEffect/DataFetching';
+import InputDataFetching from './2-useEffect/InputDataFetching';
 
 function App2() {
   return (
     <div className="App2">
-      <IntervalCounter/>
+      <InputDataFetching/>
     </div>
   )
 }
