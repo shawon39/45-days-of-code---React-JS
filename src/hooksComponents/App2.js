@@ -9,12 +9,13 @@ import './App2.css';
 // import MouseContainer from './2-useEffect/MouseContainer';
 // import IntervalCounter from './2-useEffect/IntervalCounter';
 // import DataFetching from './2-useEffect/DataFetching';
-import InputDataFetching from './2-useEffect/InputDataFetching';
+// import InputDataFetching from './2-useEffect/InputDataFetching';
+import ContextComp from './3-useContext/ContextComp';
 
 function App2() {
   return (
     <div className="App2">
-      <InputDataFetching/>
+     <ContextComp/>
     </div>
   )
 }
