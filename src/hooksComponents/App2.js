@@ -20,12 +20,17 @@ import "./App2.css";
 // import ParentComponent from "./5-useCallback/ParentComponent";
 // import Count from "./6-useMemo/Count";
 // import FocusInput from "./7-useRef/FocusInput";
-import HookTimer from "./7-useRef/HookTimer";
+// import HookTimer from "./7-useRef/HookTimer";
+// import DocTitleOne from "./8-customHooks/useDocumentTitle/DocTitleOne";
+// import DocTitleTwo from "./8-customHooks/useDocumentTitle/DocTitleTwo";
+// import CounterOne from "./8-customHooks/useCounter/CounterOne";
+// import CounterTwo from "./8-customHooks/useCounter/CounterTwo";
+import FormComponent from "./8-customHooks/useInput/FormComponent";
 
 function App2() {
 	return (
 		<div className="App2">
-			<HookTimer/>
+			<FormComponent/>
 		</div>
 	);
 }
