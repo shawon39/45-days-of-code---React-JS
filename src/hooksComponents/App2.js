@@ -16,12 +16,14 @@ import "./App2.css";
 // import CounterReducerThree from './4-useReducer/CounterReducerThree';\
 // import MainComponent from "./4-useReducer/useReducerPlusContext/MainComponent";
 // import DataFetchingOne from "./4-useReducer/Fetching Data/DataFetchingOne";
-import DataFetchingTwo from "./4-useReducer/Fetching Data/DataFetchingTwo";
+// import DataFetchingTwo from "./4-useReducer/Fetching Data/DataFetchingTwo";
+// import ParentComponent from "./5-useCallback/ParentComponent";
+import Count from "./6-useMemo/Count";
 
 function App2() {
 	return (
 		<div className="App2">
-			<DataFetchingTwo/>
+			<Count />
 		</div>
 	);
 }
