@@ -18,12 +18,14 @@ import "./App2.css";
 // import DataFetchingOne from "./4-useReducer/Fetching Data/DataFetchingOne";
 // import DataFetchingTwo from "./4-useReducer/Fetching Data/DataFetchingTwo";
 // import ParentComponent from "./5-useCallback/ParentComponent";
-import Count from "./6-useMemo/Count";
+// import Count from "./6-useMemo/Count";
+// import FocusInput from "./7-useRef/FocusInput";
+import HookTimer from "./7-useRef/HookTimer";
 
 function App2() {
 	return (
 		<div className="App2">
-			<Count />
+			<HookTimer/>
 		</div>
 	);
 }
