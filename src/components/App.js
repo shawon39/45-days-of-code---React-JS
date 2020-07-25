@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 // import PropsComp from "./1-PropsComp/PropsComp";
-// import StateComp from "./2-StateComp/StateComp";
+import StateComp from "./2-StateComp/StateComp";
 // import PrevState from "./2-StateComp/PrevState";
 // import EventComp from './3-EventComp/EventComp';
 // import EventComp2 from './3-EventComp/EventComp2';
@@ -23,12 +23,12 @@ import "./App.css";
 // import FRparent from "./15-Refs/ForwardRefs/FRparent";
 // import PortalComp from "./16-PortalComp/PortalComp";
 // import ErrorWrapper from './17-ErrorBoundary/ErrorWrapper';
-import RenderProps from './18-RenderProps/RenderProps';
+// import RenderProps from './18-RenderProps/RenderProps';
 
 function App() {
 	return (
 		<div className="App">
-			<RenderProps/>
+			<StateComp/>
 		</div>
 	);
 }

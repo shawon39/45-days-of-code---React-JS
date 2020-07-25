@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import PropsComp from "../PropsComp/PropsComp";
+import PropsComp from "../1-PropsComp/PropsComp";
 
 class StateComp extends Component {
 	constructor(props) {
@@ -9,9 +9,15 @@ class StateComp extends Component {
 		this.state = {
 			count: 0,
 			color: "Black",
+			persons: [
+				{ name: "Shawon", email: "shshawon39@gmail.com", address: "Dhaka" },
+				{ name: "Nayeem", email: "Nayeem@gmail.com", address: "Dhanmondi" },
+				{ name: "Hossain", email: "Hossain@gmail.com", address: "Dhaka" },
+			],
 		};
 
 		this.state = {
+			...this.state,
 			persons: [
 				{ name: "Shawon", email: "shshawon39@gmail.com", address: "Dhaka" },
 				{ name: "Nayeem", email: "Nayeem@gmail.com", address: "Dhanmondi" },
