@@ -23,6 +23,7 @@ const withCounter = (WrapperComponent, incrementNumber) => {
 				<WrapperComponent
 					count={this.state.count}
 					IncrementCounter={this.IncrementCounter}
+					name = "Shawon"
 					{...this.props}
 				/>
 			);
