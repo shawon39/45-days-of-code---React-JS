@@ -13,7 +13,7 @@ import "./App.css";
 // import PostForm from './8-FormComp/PostForm';
 // import LiftingStateUp from "./9-LiftingStateUp/LiftingStateUp";
 // import ClickCounter from "./11-HigherOrderComponents/ClickCounter/ClickCounter";
-import HoverCounter from "./11-HigherOrderComponents/HoverCounter/HoverCounter";
+// import HoverCounter from "./11-HigherOrderComponents/HoverCounter/HoverCounter";
 // import ContextAPI from "./12-ContextAPI/ContextAPI";
 // import Fragments from "./13-Fragments/Fragments";
 // import Fragments2 from './13-Fragments/Fragments2';
@@ -23,12 +23,12 @@ import HoverCounter from "./11-HigherOrderComponents/HoverCounter/HoverCounter";
 // import FRparent from "./15-Refs/ForwardRefs/FRparent";
 // import PortalComp from "./16-PortalComp/PortalComp";
 // import ErrorWrapper from './17-ErrorBoundary/ErrorWrapper';
-// import RenderProps from './18-RenderProps/RenderProps';
+import RenderProps from './18-RenderProps/RenderProps';
 
 function App() {
 	return (
 		<div className="App">
-			<HoverCounter />
+			<RenderProps />
 		</div>
 	);
 }
