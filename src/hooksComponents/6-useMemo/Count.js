@@ -17,7 +17,12 @@ function Count() {
 		for (let i = 0; i <= 1000000000; i++);
 		return countOne % 2 === 0;
   }, [countOne]); 
-  // isEven will run again if countOne changes otherwise it provides caching values
+	// isEven will run again if countOne changes otherwise it provides caching values
+	
+	// const isEven = () => {
+	// 	for (let i = 0; i <= 1000000000; i++);
+	// 	return countOne % 2 === 0;
+  // }; 
 
 	return (
 		<React.Fragment>

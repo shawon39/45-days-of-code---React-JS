@@ -13,7 +13,7 @@ import "./App2.css";
 // import ContextComp from './3-useContext/ContextComp';
 // import CounterReducer from './4-useReducer/CounterReducer';
 // import CounterTwoReducer from './4-useReducer/CounterTwoReducer';
-// import CounterReducerThree from './4-useReducer/CounterReducerThree';\
+// import CounterReducerThree from './4-useReducer/CounterReducerThree';
 // import MainComponent from "./4-useReducer/useReducerPlusContext/MainComponent";
 // import DataFetchingOne from "./4-useReducer/Fetching Data/DataFetchingOne";
 // import DataFetchingTwo from "./4-useReducer/Fetching Data/DataFetchingTwo";
@@ -30,7 +30,7 @@ import FormComponent from "./8-customHooks/useInput/FormComponent";
 function App2() {
 	return (
 		<div className="App2">
-			<FormComponent/>
+			<FormComponent />
 		</div>
 	);
 }

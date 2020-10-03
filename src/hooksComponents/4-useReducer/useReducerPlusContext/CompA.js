@@ -6,6 +6,7 @@ function CompA() {
 	return (
 		<div>
       Count : {countContext.countState}
+			<span style={{marginRight: '10px'}}></span>
 			<button onClick={() => countContext.countDispatch("increment")}>
 				Increment
 			</button>
